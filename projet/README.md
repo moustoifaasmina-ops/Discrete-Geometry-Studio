@@ -4,10 +4,8 @@
 
 ## 🎬 **Démonstrations Visuelles**
 
-### 1️⃣ **Vidéo de Démonstration**
-
-📹 **[Regarder la démonstration complète sur YouTube](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)** 
-*(Remplacez `YOUR_VIDEO_ID` par l'ID de votre vidéo)*
+### 1️ **Vidéo de Démonstration**
+[Capture vidéo du 20-05-2026 15:44:42.webm](https://github.com/user-attachments/assets/22831c82-9432-463b-9ef5-dd7e8a92ac69)
 
 > **Contenu de la vidéo** :
 >
@@ -18,7 +16,7 @@
 
 ---
 
-### 2️⃣ **Pipeline Visuel Complet**
+### 2️ **Pipeline Visuel Complet**
 
 &nbsp;
 
@@ -37,17 +35,17 @@
 
 ---
 
-## 📚 **Fondements Théoriques**
+##  **Fondements Théoriques**
 
 Ce projet implémente **fidèlement** les algorithmes de deux articles scientifiques majeurs :
 
-### 1️⃣ **["Discrete bisector function and Euclidean skeleton"](https://hal.archives-ouvertes.fr/hal-00136510/)**
+### 1️ **["Discrete bisector function and Euclidean skeleton"](https://hal.archives-ouvertes.fr/hal-00136510/)**
 
 *Michel Couprie et Rita Zrour (2005)* 
 **Laboratoire A2SI, ESIEE / IGM, CNRS-UMLV-ESIEE UMR 8049** 
 → **Fonction bissectrice discrète (θₓ) + Axe médian euclidien + Squelette homotopique**
 
-### 2️⃣ **["New algorithms for Euclidean distance transformation of an n-dimensional digitized picture with applications"](https://doi.org/10.1016/0923-5965(94)90057-3)**
+### 2️**["New algorithms for Euclidean distance transformation of an n-dimensional digitized picture with applications"](https://doi.org/10.1016/0923-5965(94)90057-3)**
 
 *Tovofumi Saito et Jun-Ichiro Toriwaki (1994)* 
 **Université de Nagoya, Japon** 
@@ -55,7 +53,7 @@ Ce projet implémente **fidèlement** les algorithmes de deux articles scientifi
 
 ---
 
-## 🌍 **Domaines d'Application et Utilité des Algorithmes**
+##  **Domaines d'Application et Utilité des Algorithmes**
 
 ### **Pourquoi ces algorithmes sont-ils utiles ?**
 
@@ -63,7 +61,7 @@ Les algorithmes implémentés dans ce projet sont **fondamentaux** dans de nombr
 
 ---
 
-#### 1️⃣ **Imagerie Médicale** *(Saito & Toriwaki, Section 6)*
+#### 1️ **Imagerie Médicale** *(Saito & Toriwaki, Section 6)*
 
 **Problématique** : Segmenter et analyser des structures anatomiques (vaisseaux sanguins, os, tumeurs) à partir d'images scannées (IRM, scanner CT, angiographie). 
 **Comment ce projet aide** :
@@ -88,7 +86,7 @@ Les algorithmes implémentés dans ce projet sont **fondamentaux** dans de nombr
 
 ---
 
-#### 2️⃣ **Vision par Ordinateur et Robotique** *(Saito & Toriwaki, Section 1)*
+#### 2️ **Vision par Ordinateur et Robotique** *(Saito & Toriwaki, Section 1)*
 
 **Problématique** : Reconnaître et analyser des objets dans des images pour la navigation autonome ou le contrôle qualité. 
 **Comment ce projet aide** :
@@ -116,7 +114,7 @@ Les algorithmes implémentés dans ce projet sont **fondamentaux** dans de nombr
 
 ---
 
-#### 3️⃣ **Traitement d'Images Satellites et Télédétection** *(Saito & Toriwaki, Section 1)*
+#### 3️ **Traitement d'Images Satellites et Télédétection** *(Saito & Toriwaki, Section 1)*
 
 **Problématique** : Analyser des images satellites pour la cartographie, l'agriculture de précision, ou la surveillance environnementale. 
 **Comment ce projet aide** :
@@ -137,7 +135,7 @@ Les algorithmes implémentés dans ce projet sont **fondamentaux** dans de nombr
 
 ---
 
-#### 4️⃣ **Reconnaissance de Caractères (OCR) et Traitement de Documents**
+#### 4️ **Reconnaissance de Caractères (OCR) et Traitement de Documents**
 
 **Problématique** : Améliorer la reconnaissance de texte manuscrit ou imprimé. 
 **Comment ce projet aide** :
@@ -154,7 +152,7 @@ Les algorithmes implémentés dans ce projet sont **fondamentaux** dans de nombr
 
 ---
 
-#### 5️⃣ **Recherche Académique**
+#### 5️ **Recherche Académique**
 
 **Problématique** : Étudier des algorithmes de géométrie discrète ou de morphologie mathématique. 
 **Comment ce projet aide** :
@@ -173,7 +171,7 @@ Les algorithmes implémentés dans ce projet sont **fondamentaux** dans de nombr
 
 ---
 
-## 📌 **À propos du projet**
+##  **À propos du projet**
 
 **Discrete Geometry Studio** est une **implémentation de référence** en C des algorithmes décrits dans les articles de **Couprie & Zrour (2005)** et **Saito & Toriwaki (1994)**. Il permet de :
 
@@ -187,7 +185,7 @@ Les algorithmes implémentés dans ce projet sont **fondamentaux** dans de nombr
 
 ###  **Concepts Clés et Équations**
 
-#### 1️⃣ **Transformée Euclidienne (EDT)**
+#### 1️ **Transformée Euclidienne (EDT)**
 
 **Référence** : Saito & Toriwaki (1994), Algorithmes 1-4 
 **Équation fondamentale** (Éq. 1) :
@@ -216,7 +214,7 @@ D_X²(x) = min{ (x₁ - y₁)² + (x₂ - y₂)² | y ∈ X̄ }
 
 ---
 
-#### 2️⃣ **Axe Médian Euclidien (MA(X))**
+#### 2️ **Axe Médian Euclidien (MA(X))**
 
 **Référence** : Couprie & Zrour (2005), Section 2 
 **Définition** :
@@ -231,7 +229,7 @@ D_X²(x) = min{ (x₁ - y₁)² + (x₂ - y₂)² | y ∈ X̄ }
 
 ---
 
-#### 3️⃣ **Fonction Bissectrice Discrète (θ_X)**
+#### 3️ **Fonction Bissectrice Discrète (θ_X)**
 
 **Référence** : Couprie & Zrour (2005), Section 3 
 **Définitions** :
@@ -256,7 +254,7 @@ D_X²(x) = min{ (x₁ - y₁)² + (x₂ - y₂)² | y ∈ X̄ }
 
 ---
 
-## 📂 **Structure du Projet**
+##  **Structure du Projet**
 
 ```text
 projet/
@@ -342,7 +340,7 @@ make all
 
 ---
 
-## 📊 **Performances et Benchmarks**
+##  **Performances et Benchmarks**
 
 *(Inspirés des résultats expérimentaux de Saito & Toriwaki, Section 5)*
 
@@ -392,7 +390,7 @@ make all
 
 ---
 
-## 🔍 **Correspondance Code ↔ Articles**
+##  **Correspondance Code ↔ Articles**
 
 ### **1. Transformée Euclidienne (Saito & Toriwaki, 1994)**
 
@@ -405,70 +403,11 @@ make all
 | **Optimisation mémoire**   | Section 3.5    | Allocation dynamique             | Lignes 10-20    |
 
 
-**Exemple de code (distanceMap.c)** :
-
-```c
-// Algorithme 4 (Saito & Toriwaki, 1994)
-void euclideanDistanceTransform2D(int **image, int rows, int cols) {
-    // Étape 1: Transformation verticale (Éq. 8-9)
-    for (int j = 0; j < cols; j++) {
-        // Balayage avant (Éq. 8)
-        int df = rows;
-        for (int i = 0; i < rows; i++) {
-            if (image[i][j] != 0) { df++; if (df > rows) df = rows; }
-            else { df = 0; }
-            image[i][j] = df * df; // D_X²(x) = df²
-        }
-        // Balayage arrière (Éq. 9)
-        int db = rows;
-        for (int i = rows-1; i >= 0; i--) {
-            if (image[i][j] != 0) { db++; if (db > rows) db = rows; }
-            else { db = 0; }
-            image[i][j] = imin(image[i][j], db * db);
-        }
-    }
-    // Étape 2: Transformation horizontale (Éq. 10-11)
-    int *buff = malloc(cols * sizeof(int));
-    for (int i = 0; i < rows; i++) {
-        for (int j = 0; j < cols; j++) buff[j] = image[i][j];
-        // Balayage avant (Éq. 10)
-        int a = 0;
-        for (int j = 1; j < cols; j++) {
-            if (a > 0) a--;
-            if (buff[j] > buff[j-1] + 1) {
-                int b = (buff[j] - buff[j-1] - 1) / 2;
-                for (int n = a; n <= b; n++) {
-                    int m = buff[j-1] + (n+1)*(n+1);
-                    if (j+n >= cols || buff[j+n] <= m) break;
-                    if (m < image[i][j+n]) image[i][j+n] = m;
-                }
-                a = b;
-            }
-        }
-        // Balayage arrière (Éq. 11)
-        a = 0;
-        for (int j = cols-2; j >= 0; j--) {
-            if (a > 0) a--;
-            if (buff[j] > buff[j+1] + 1) {
-                int b = (buff[j] - buff[j+1] - 1) / 2;
-                for (int n = a; n <= b; n++) {
-                    int m = buff[j+1] + (n+1)*(n+1);
-                    if (j-n < 0 || buff[j-n] <= m) break;
-                    if (m < image[i][j-n]) image[i][j-n] = m;
-                }
-                a = b;
-            }
-        }
-    }
-    free(buff);
-}
-```
-
 ---
 
 ---
 
-## 📚 **Références Scientifiques Implémentées**
+##  **Références Scientifiques Implémentées**
 
 ### **Article 1 : Couprie & Zrour (2005)**
 
@@ -571,7 +510,7 @@ Ce projet est une **implémentation de référence** des algorithmes de **Coupri
 
 ---
 
-## 📜 **Licence**
+##  **Licence**
 
 Ce projet est sous licence **MIT**. Vous êtes libre de :
 
@@ -583,7 +522,7 @@ Ce projet est sous licence **MIT**. Vous êtes libre de :
 
 ---
 
-## 🙏 **Remerciements**
+##  **Remerciements**
 
 - **Auteurs originaux** :
   - [Michel Couprie](https://www.loria.fr/~couprie/) (ESIEE, LORIA)
@@ -601,7 +540,7 @@ Ce projet est sous licence **MIT**. Vous êtes libre de :
 
 ---
 
-## 🔹 **Guide d'évaluation complète**
+##  **Guide d'évaluation complète**
 
 ### **1. Pourquoi ce projet est-il impressionnant ?**
 
