@@ -9,7 +9,6 @@
 
 > **Contenu de la vidéo** :
 >
-> - Présentation du projet et de son architecture.
 > - Exécution complète du pipeline sur `images/test_vaisseaux.pgm`.
 > - Visualisation des **6 étapes** (binarisation → EDT → bissectrice → axe médian → filtrage → superposition).
 > - Explication des paramètres (`seuil_bin`, `seuil_bisect`).
