@@ -581,7 +581,7 @@ make images
 ### **3. Questions fréquentes des recruteurs**
 
 **Q: Pourquoi avoir choisi le C plutôt que Python ou C++ ?** 
-→ **Réponse** :
+**Réponse** :
 
 - **Performances** : Le C permet un **contrôle total** sur la mémoire et les opérations, essentiel pour des algorithmes de traitement d'image optimisés (Saito & Toriwaki, Section 5).
 - **Portabilité** : 100% compatible avec tous les systèmes (Linux, macOS, Windows).
@@ -608,7 +608,7 @@ make images
 ---
 
 **Q: Comment étendre ce projet à la 3D ?** 
-→ **Réponse** :
+ **Réponse** :
 
 1. **Étendre l'EDT** :
   - Implémenter l'**Algorithme 4 en 3D** (Saito & Toriwaki, Section 3.5).
@@ -623,7 +623,7 @@ make images
 ---
 
 **Q: Comment ce projet se compare-t-il à OpenCV ou ITK ?** 
-→ **Réponse** :
+ **Réponse** :
 
 
 | Critère           | Mon Projet                                | OpenCV                    | ITK                         |
