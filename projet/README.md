@@ -5,7 +5,7 @@
 **Projet individuel de fin d'année**  L3 Informatique
 
 Ce projet a été réalisé dans un cadre simulant les conditions d'une entreprise : poste de travail dédié, horaires fixes, suivi régulier avec l'encadrant, rapports d'avancement et comptes rendus à chaque étape. Les algorithmes implémentés sont issus des travaux de recherche de **Saito & Toriwaki (1994)** et **Couprie & Zrour (2005)**. Je ne suis pas l'auteure de ces algorithmes : mon travail a consisté à lire et comprendre ces articles scientifiques, puis à les implémenter intégralement en C en appliquant mes compétences en génie logiciel,
-conception modulaire, gestion mémoire, pipeline de traitement, traitement de données et validation des résultats. Pour comprendre et traduire ces algorithmes en code, j'ai également dû mobiliser mes compétences en mathématiques (géométrie, algèbre, optimisation). Ce type de projet, où l'on développe des logiciels à forte composante mathématique et traitement de données, est ce qui m'intéresse et ce vers quoi je souhaite m'orienter.
+conception modulaire, gestion mémoire, pipeline de traitement, traitement de données et validation des résultats. Pour comprendre et traduire ces algorithmes en code, j'ai également dû mobiliser mes compétences en mathématiques (géométrie, algèbre, optimisation). Ce type de projet, où l'on développe des logiciels à forte composante mathématique et traitement de données, est ce qui m'intéresse le plus.
 
 ---
 
