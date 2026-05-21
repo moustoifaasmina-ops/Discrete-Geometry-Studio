@@ -102,8 +102,8 @@ projet/
 ### Compiler
 
 ```bash
-git clone https://github.com/<ton-utilisateur>/discrete-geometry-studio.git
-cd discrete-geometry-studio
+git clone https://github.com/moustoifaasmina-ops/Discrete-Geometry-Studio.git
+cd Discrete-Geometry-Studio
 make all
 ```
 
