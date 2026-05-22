@@ -16,14 +16,10 @@
 
 #define INF (INT_MAX / 2)
 
-/* ============================================================
- * Utilitaire local
- * ============================================================ */
+/* Utilitaire local */
 static int imin(int a, int b) { return a < b ? a : b; }
 
-/* ============================================================
- * Gestion dynamique du masque
- * ============================================================ */
+/* Gestion dynamique du masque */
 
 /**
  * @brief Initialise un masque vide.
@@ -71,9 +67,7 @@ int AddWeighting(MaskG *M, int x, int y, int r) {
     return 1;
 }
 
-/* ============================================================
- * Construction de la table CTg
- * ============================================================ */
+/*  Construction de la table CTg */
 
 /**
  * @brief Construit la table CTg contenant x² + y² pour chaque pixel.
@@ -85,11 +79,8 @@ void CompCTg(int height, int width, int **CTg) {
         for (int x = 0; x < width; x++)
             CTg[y][x] = x * x + y * y;
 }
-
-/* ============================================================
- * Test d'appartenance à l'axe médian
- * ============================================================ */
-
+/ * Test d'appartenance à l'axe médian */
+ 
 /**
  * @brief Teste si un pixel appartient à l'axe médian.
  *
@@ -146,18 +137,14 @@ int IsMAg(int x, int y, MaskG *MgL, LookUpTable Lut,
     return 1;
 }
 
-/* ============================================================
- * Rayon maximal exploitable
- * ============================================================ */
+/*  Rayon maximal exploitable */
 int GreatestRadius(int size) {
     int res = (size - 1) * (size - 1) - 1;
     if (res >= MAXLUTENTRY) res = MAXLUTENTRY - 1;
     return res;
 }
 
-/* ============================================================
- * Construction de la LUT des masques
- * ============================================================ */
+/* Construction de la LUT des masques */
 
 /**
  * @brief Calcule une ligne de la LUT pour un vecteur du masque.
@@ -192,9 +179,7 @@ static void computeLutRow(int **CTg, int height, int width,
     }
 }
 
-/* ============================================================
- * Construction complète de la LUT du masque
- * ============================================================ */
+/* Construction complète de la LUT du masque */
 void CompLutMask(int **CTg, int **DTg, int height, int width,
                  MaskG *MgL, LookUpTable Lut, int Rknown, int Rtarget) {
 
@@ -238,9 +223,8 @@ void CompLutMask(int **CTg, int **DTg, int height, int width,
     }
 }
 
-/* ============================================================
- * Pipeline principal
- * ============================================================ */
+/* Pipeline principal*/
+    
 static void computeMA(int **DTg, int height, int width,
                        void *output, int output_is_uchar) {
 
@@ -280,9 +264,7 @@ static void computeMA(int **DTg, int height, int width,
     freeMaskG(&MgL);
 }
 
-/* ============================================================
- * API publique
- * ============================================================ */
+
 PGMImage ComputeMedialAxisFromDT(int **DTg, int height, int width) {
     PGMImage ma;
     ma.width = width;
