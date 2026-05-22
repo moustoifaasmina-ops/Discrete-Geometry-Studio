@@ -63,10 +63,9 @@ Concrètement, il permet de réduire une forme complexe (ex : un réseau de vais
 
 ## Structure du projet
 
-```
-<img width="661" height="866" alt="Capture d’écran du 2026-05-22 02-27-27" src="https://github.com/user-attachments/assets/4aa33032-9762-482a-b7fb-637798dac5ab" />
+<img width="661" height="866" alt="Capture d’écran du 2026-05-22 02-27-27" src="https://github.com/user-attachments/assets/676c48e1-493d-41ec-9a89-cd7c3469fa20" />
 
-```
+
 
 ---
 
