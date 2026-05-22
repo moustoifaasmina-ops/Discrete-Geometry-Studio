@@ -21,16 +21,11 @@
 #include "lut.h"
 #include "bisector.h"
 
-/* ============================================================
- * Vérification des bornes image
- * ============================================================ */
 static bool isInBounds(int px, int py, int width, int height) {
     return px >= 0 && px < width && py >= 0 && py < height;
 }
 
-/* ============================================================
- * Extension du downstream (coeur de la méthode)
- * ============================================================ */
+/ * Extension du downstream (coeur de la méthode)*/
 
 /**
  * @brief Calcule l'ensemble étendu des points downstream.
@@ -86,7 +81,7 @@ PointSet computeExtendedDownstream(int x, int y, int **D2,
             int a = decomps->points[i].x;
             int b = decomps->points[i].y;
 
-            /* ============================================================
+            /* 
              * Génération des symétries discrètes du disque
              *
              * LUT stocke uniquement (a,b) avec a >= b >= 0
@@ -95,8 +90,8 @@ PointSet computeExtendedDownstream(int x, int y, int **D2,
              *
              * Cas particuliers :
              *  - a == b → duplication des permutations
-             *  - a == 0 ou b == 0 → réduction du nombre de symétries
-             * ============================================================ */
+             *  - a == 0 ou b == 0 -> réduction du nombre de symétries
+             *  */
             int syms[8][2];
             int nsym = 0;
 
@@ -149,9 +144,9 @@ PointSet computeExtendedDownstream(int x, int y, int **D2,
     return eds;
 }
 
-/* ============================================================
- * Calcul de l'angle maximal
- * ============================================================ */
+/*
+  Calcul de l'angle maximal
+ */
 
 /**
  * @brief Calcule l'angle maximal formé par deux points autour d'un centre.
@@ -196,9 +191,9 @@ double computeMaxAngle(Point center, PointSet *points) {
     return maxAngle;
 }
 
-/* ============================================================
- * Fonction de bissectrice discrète
- * ============================================================ */
+/* 
+  Fonction de bissectrice discrète
+*/
 
 /**
  * @brief Calcule la valeur de la fonction de bissectrice en (x,y).
