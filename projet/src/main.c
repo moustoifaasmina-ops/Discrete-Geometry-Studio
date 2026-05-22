@@ -153,11 +153,11 @@ int main(int argc, char *argv[]) {
 
     char path[512];
 
-    printf("========================================\n");
+    printf("------------------------------------------\n");
     printf("  DISCRETE GEOMETRY STUDIO\n");
-    printf("========================================\n\n");
+    printf("------------------------------------------\n\n");
 
-    /* 1. Lecture — détection automatique PGM / PPM */
+    /* 1. Lecture - détection automatique PGM / PPM */
     printf("[1/7] Lecture de %s...\n", input_file);
 
     int fmt = detectFormat(input_file);
@@ -168,7 +168,7 @@ int main(int argc, char *argv[]) {
         printf("       Format : PGM (P5)\n");
     } else if (fmt == 6) {
         img = readPPMasPGM(input_file);
-        printf("       Format : PPM (P6) → converti en niveaux de gris\n");
+        printf("       Format : PPM (P6) -> converti en niveaux de gris\n");
     } else {
         fprintf(stderr, "Erreur: format non reconnu (attendu P5 ou P6)\n");
         return EXIT_FAILURE;
@@ -306,9 +306,9 @@ int main(int argc, char *argv[]) {
     printf("       -> %s\n", path);
 
     /* Résumé */
-    printf("\n========================================\n");
+    printf("\n--------------------------------------\n");
     printf("  RÉSUMÉ\n");
-    printf("========================================\n");
+    printf("----------------------------------------\n");
     printf("  Image         : %s (%dx%d)\n", input_file, W, H);
     printf("  Format        : %s\n", fmt == 6 ? "PPM (P6) → PGM" : "PGM (P5)");
     printf("  Seuil bin.    : %d\n", seuil_bin);
@@ -323,7 +323,7 @@ int main(int argc, char *argv[]) {
     printf("  Pts filtrés   : %d\n", filtCount);
     printf("  LUT entrées   : %zu\n", LUT_size);
     printf("  Sorties dans  : %s/\n", out_dir);
-    printf("========================================\n");
+    printf("-----------------------------------------\n");
 
     /* Nettoyage */
     freePGM(img);
