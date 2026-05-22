@@ -33,7 +33,7 @@
 
 static int server_fd = -1;
 
-/* ─── Utilitaires ─────────────────────────────────────────────── */
+/*  Utilitaires */
 
 static void ensure_dir(const char *path) {
     struct stat st;
@@ -161,7 +161,7 @@ static unsigned char *image_to_bmp(const char *path, long *bmp_size) {
 }
 
 
-/* ─── Page HTML intégrée ──────────────────────────────────────── */
+/* Page HTML intégrée  */
 static const char *HTML_PAGE =
 "<!DOCTYPE html>\n"
 "<html lang='fr'>\n"
@@ -731,12 +731,12 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    printf("========================================\n");
+    printf("-----------------------------------------\n");
     printf("  DISCRETE GEOMETRY STUDIO — Serveur\n");
-    printf("========================================\n");
+    printf("-----------------------------------------\n");
     printf("  http://localhost:%d\n", port);
     printf("  Ctrl+C pour arreter\n");
-    printf("========================================\n\n");
+    printf("---------------------------------------\n\n");
 
     while (1) {
         struct sockaddr_in client_addr;
