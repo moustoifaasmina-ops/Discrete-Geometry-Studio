@@ -64,29 +64,8 @@ Concrètement, il permet de réduire une forme complexe (ex : un réseau de vais
 ## Structure du projet
 
 ```
-projet/
-├── Makefile
-├── README.md
-├── images/             # Images d'entrée (PGM)
-├── include/            # En-têtes (.h)
-│   ├── pgm.h           # Lecture/écriture PGM
-│   ├── ppm.h           # Lecture/écriture PPM
-│   ├── point.h         # Structures Point et PointSet
-│   ├── distanceMap.h   # Transformée euclidienne
-│   ├── lut.h           # Table de décomposition
-│   ├── bisector.h      # Fonction bissectrice
-│   └── axe.h           # Axe médian
-├── src/                # Implémentations (.c)
-│   ├── main.c          # Pipeline principal
-│   ├── pgm.c
-│   ├── ppm.c
-│   ├── distanceMap.c   # EDT — Algorithme 4 (Saito & Toriwaki)
-│   ├── pointset.c
-│   ├── lut.c
-│   ├── bisector.c      # Bissectrice + Extended Downstream
-│   └── axe.c           # Axe médian + boules maximales
-├── obj/                # Fichiers objets (générés)
-└── out_put/            # Résultats du pipeline
+<img width="661" height="866" alt="Capture d’écran du 2026-05-22 02-27-27" src="https://github.com/user-attachments/assets/4aa33032-9762-482a-b7fb-637798dac5ab" />
+
 ```
 
 ---
