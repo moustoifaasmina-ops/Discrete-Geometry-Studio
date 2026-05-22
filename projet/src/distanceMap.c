@@ -130,13 +130,7 @@ void euclideanDistanceTransform2D(int **image, int rows, int cols) {
 }
 
 /**
- * EDT with site tracking (for Voronoi / downstream computation)
- *
- * CORRECTION MAJEURE : L'ancienne version utilisait une propagation
- * incrémentale (+1) qui donnait une distance L1 (Manhattan), pas
- * euclidienne au carré.
- *
- * Nouvelle implémentation : Saito-Toriwaki avec propagation de sites.
+ *   Saito-Toriwaki avec propagation de sites.
  * - Étape 1 (verticale) : pour chaque colonne, on propage le site
  *   le plus proche verticalement et on calcule (i - site_row)².
  * - Étape 2 (horizontale) : pour chaque ligne, on cherche le site
